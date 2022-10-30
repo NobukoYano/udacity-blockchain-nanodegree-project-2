@@ -10,13 +10,16 @@ Truffle v5.6.1 (core: 5.6.1)
 "openzeppelin-solidity": "2.3"
 ```
 > Your ERC-721 Token Name
+
 MyStarToken
 
 > Your ERC-721 Token Symbol
+
 JPY
 
 > Your “Token Address” on the Rinkeby Network
-Rinkeby network was deprecated, so I tried to deploy on goerli test network
+
+Rinkeby network was deprecated, so I tried to deploy on goerli test network.
 
 ### Dependencies
 For this project, you will need to have:

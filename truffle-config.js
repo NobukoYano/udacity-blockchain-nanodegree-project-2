@@ -54,10 +54,11 @@ module.exports = {
     goerli: {
       provider: () => new HDWalletProvider(mnemonic, `https://goerli.infura.io/v3/${infuraKey}`),
         network_id: 5,       // goerli's id
-        gas: '0x100',        // from the rinkeby gas and gasPrice
-        gasPrice: '0x1000000',
-        // gas: 4500000,        // rinkeby has a lower block limit than mainnet
-        // gasPrice: 10000000000
+        // gas: '0x100',
+        // gasPrice: '0x1000000',
+        gas: 256,        
+        // gas: 4500000,  // original
+        gasPrice: 10000000000
     }
 
     // Another network with more advanced options...
