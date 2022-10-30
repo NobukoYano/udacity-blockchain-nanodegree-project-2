@@ -4,7 +4,19 @@
 ### ToDo
 This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
 
+> Specify the Truffle version and OpenZeppelin version used in the project.
+``` 
+Truffle v5.6.1 (core: 5.6.1)
+"openzeppelin-solidity": "2.3"
+```
+> Your ERC-721 Token Name
+MyStarToken
 
+> Your ERC-721 Token Symbol
+JPY
+
+> Your “Token Address” on the Rinkeby Network
+Rinkeby network was deprecated, so I tried to deploy on goerli test network
 
 ### Dependencies
 For this project, you will need to have:
